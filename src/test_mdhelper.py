@@ -1,7 +1,5 @@
 import unittest
-from textnode import TextNode
-from leafnode import LeafNode
-from convert import text_node_to_html_node
+from textnode import TextNode, text_node_to_html_node
 from enums.textenum import TextType
 from mdhelper import split_nodes_delimiter
 
